@@ -75,7 +75,7 @@ The big O definition is satisfied through reasoning away from the properties of 
 Quantifier $\exists C>0$ is satisfied by the selection of $C=1$, which was made as it was positive.
 Quantifier $\exists n_0$ is satisfied by taking $n_0 = n_1$, where $n_1$ is known to exist from the little o definition with $c=1$. 
 
-The universal quantification $\forall n \geq n_0$ holds because the little o definition guarantees $|f(n)| < |g(n)|$ for all $n \geq n_1$, and consequently $|f(n)| \leq |g(n)|$ for these same values of $n$. 
+The quantifier $\forall n \geq n_0$ holds because the little o definition guarantees $|f(n)| < |g(n)|$ for all $n \geq n_1$, and consequently $|f(n)| \leq |g(n)|$ for these same values of $n$. 
 This logical progression from the little o definition ensures all of the necessary quantifier requirements are met.
 
 Therefore, $f(n) \in o(g(n)) \implies f(n) \in O(g(n))$.
